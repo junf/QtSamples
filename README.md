@@ -2,7 +2,7 @@ QtSamples
 =========
 
 Simple Samples of Qt  
-This project is derived from [[PySideSamples>https://github.com/junf/PySideSamples]].
+This project is derived from https://github.com/junf/PySideSamples.
 
 Contents
 --------
