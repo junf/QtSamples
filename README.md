@@ -11,7 +11,7 @@ Display image in full-screen without frame. When you run the application, please
 
 Notice
 ------
-This samples were verified under Qt4.8.
+These samples were verified under Qt4.8.
 
 License
 -------
