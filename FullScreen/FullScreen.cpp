@@ -26,23 +26,23 @@ Screen::Screen(const QString& text, QWidget* parent, Qt::WindowFlags f)
 : QLabel(text, parent, f) {}
 
 void Screen::keyPressEvent(QKeyEvent* ev) {
-	QLabel::keyPressEvent(ev);
-	if (ev->key() == Qt::Key_Escape) {
-		if (isFullScreen()) {
-			showNormal();
-			showMaximized();
-		} else {
-			showFullScreen();
-		}
-	}
+  QLabel::keyPressEvent(ev);
+  if (ev->key() == Qt::Key_Escape) {
+    if (isFullScreen()) {
+      showNormal();
+      showMaximized();
+    } else {
+      showFullScreen();
+    }
+  }
 }
 
 int main(int argc, char** argv) {
   QApplication app(argc, argv);
-	QPixmap pixmap("hoge.jpg");
+  QPixmap pixmap("hoge.jpg");
   Screen screen;
   screen.setPixmap(pixmap);
   screen.showFullScreen();
 
-	return app.exec();
+  return app.exec();
 }
