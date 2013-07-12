@@ -38,12 +38,11 @@ void Screen::keyPressEvent(QKeyEvent* ev) {
 }
 
 int main(int argc, char** argv) {
-	QApplication app(argc, argv);
+  QApplication app(argc, argv);
 	QPixmap pixmap("hoge.jpg");
-    Screen screen;
-    screen.setPixmap(pixmap);
-    screen.showFullScreen();
+  Screen screen;
+  screen.setPixmap(pixmap);
+  screen.showFullScreen();
 
 	return app.exec();
 }
-
