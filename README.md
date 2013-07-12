@@ -8,6 +8,9 @@ Contents
 --------
 1. **FullScreen**:  
 Display image in full-screen without frame. When you run the application, please place "hoge.jpg" included in the same directory as the executable file.
+2. **Slide**:  
+Display image while sliding. When you run the application, please place "hoge.jpg" included in the same directory as the executable file.
+
 
 Notice
 ------
